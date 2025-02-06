@@ -22,9 +22,7 @@ body {
     display: flex;
     align-items: center;
 }
-.menu {
-    
-}
+
 .menu a {
     padding: 0 20px;
     color: black;
