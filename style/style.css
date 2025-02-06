@@ -1,0 +1,396 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.nav-bar {
+    overflow: hidden;
+    top: 0;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    background: #F7F8FA;
+    display: flex;
+    align-items: center;
+}
+.menu {
+    
+}
+.menu a {
+    padding: 0 20px;
+    color: black;
+    font-size: 1.2rem;
+}
+.seacch {
+    color: black;
+}
+.hero-area {
+    height: 100vh;
+    width: 100%;
+}
+.hero {
+    background-image: url('../src/hero_image.png');
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    opacity: .50;
+    position: relative;
+}
+.middle-text h3 {
+    font-size: 3rem;
+    color: white;
+    background-color: #555;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 10px 20px;
+}
+.about-me {
+    margin: 50px 300px;
+}
+.about-me h1 {
+    font-size: 2rem;
+    padding: 10px 0;
+    text-transform: uppercase;
+    text-align: center;
+    color: #777777;
+}
+.about-me h4 {
+    font-size: 1rem;
+    padding: 10px 0;
+    text-align: center;
+    font-style: italic;
+    color: #777777;
+}
+.about-me p {
+    font-size: 1rem;
+    padding: 10px 0;
+    text-align: justify;
+    color: #777777;
+    line-height: 25px;
+}
+.detials {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    padding-top: 30px;
+}
+.name {
+    text-align: center;
+    color: #777777;
+    width: 100%;  
+    height: 100%; 
+}
+.name img {
+    padding-top: 40px;
+    opacity: .50;
+}
+.text p {
+    color: #777777;
+    margin: 0;
+    padding: 0;
+}
+.im-really-good p {
+    padding-top: 30px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.photography h5 {
+    padding: 20px 0;
+    font-size: 20px;
+    letter-spacing: 10px;
+    color: #777777;
+}
+.photography .skill-1 {
+    background-color: #F1F1F1;
+    height: 35px;
+    width: 100%;
+}
+.photography .skill {
+    background-color: #616161;
+    height: 35px;
+    width: 90%;
+}
+.photography .skill h6 {
+    text-align: center;
+    color: #F1F1F1;
+    font-size: 20px;
+    padding: 8px;
+}
+.web h5 {
+    padding: 20px 0;
+    font-size: 20px;
+    letter-spacing: 10px;
+    color: #777777;
+}
+.web .skill-1 {
+    background-color: #F1F1F1;
+    height: 35px;
+    width: 100%;
+}
+.web .skill {
+    background-color: #616161;
+    height: 35px;
+    width: 85%;
+}
+.web .skill h6 {
+    text-align: center;
+    color: #F1F1F1;
+    font-size: 20px;
+    padding: 8px;
+}
+.photoshop h5 {
+    padding: 20px 0;
+    font-size: 20px;
+    letter-spacing: 10px;
+    color: #777777;
+}
+.photoshop .skill-1 {
+    background-color: #F1F1F1;
+    height: 35px;
+    width: 100%;
+}
+.photoshop .skill {
+    background-color: #616161;
+    height: 35px;
+    width: 75%;
+}
+.photoshop .skill h6 {
+    text-align: center;
+    color: #F1F1F1;
+    font-size: 20px;
+    padding: 8px;
+}
+
+.hero-2 {
+    height: 550px;
+    width: 100%;
+}
+.hero-bg {
+    width: 100%;
+    height: 550px;
+    background-image: url('../src/Here_2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    opacity: .50;
+    position: sticky;
+    position: relative;
+}
+.portfollio .p h2 {
+    font-size: 4rem;
+    color: white;
+    background-color: #555;
+    position: absolute;
+    text-align: center;
+    padding: 20px;
+    top: 50%;
+    right: 50%;
+}
+.top-area {  
+    display: flex;  
+    justify-content: space-around;  
+    align-items: center;  
+    background-color: #555;
+    padding: 20px 0;  
+    color: white;  
+}  
+.text {  
+    text-align: center;  
+}  
+.text h2 {  
+    font-size: 36px;  
+    margin: 0;  
+}  
+.text p {  
+    font-size: 18px;  
+    margin: 5px 0 0;  
+    color: white;
+}  
+.gallery-area {  
+    text-align: center;  
+    padding: 20px;  
+    margin: 0 400px;
+}  
+h1 {  
+    font-size: 25px;  
+    margin-bottom: 15px;  
+}  
+p {  
+    font-size: 18px;  
+    font-style: italic;
+    padding: 5px 0 20px; 
+}  
+.gallery {  
+    display: grid;  
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(4, minmax(100px, 220px));  
+    gap: 10px;  
+}  
+.gallery img {  
+    width: 220px;  
+    height: 160px;  
+    border-radius: 8px;
+}  
+.gallery img:hover {
+    opacity: .50;  
+}  
+.load-more {  
+    margin: 50px;  
+    padding: 10px 20px;  
+    font-size: 18px;  
+    border: none;  
+    background-color: #F1F1F1;  
+    color: black;  
+    border-radius: 5px;  
+    cursor: pointer;  
+    transition: background-color 0.3s;  
+}  
+.load-more:hover {  
+    background-color: #CCCCCC;  
+}
+.hero-3 {
+    height: 550px;
+    width: 100%;
+}
+.hero-bg-1 {
+    width: 100%;
+    height: 550px;
+    background-image: url('../src/beautiful-photographer-looking-camera.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    opacity: .50;
+    position: sticky;
+    position: relative;
+}
+.portfollio .p h2 {
+    font-size: 4rem;
+    color: white;
+    background-color: #555;
+    position: absolute;
+    text-align: center;
+    padding: 20px;
+    top: 50%;
+    right: 50%;
+}
+.work {
+    flex-grow: 6;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;  
+}  
+.work h1 {  
+    margin-bottom: 10px;
+    color: #858585;  
+}  
+.work p {
+    color: #858585;  
+}
+.contact-area {
+    display: flex;
+    margin: 20px 400px;
+}
+.map {
+    flex-grow: 6;
+    width: 280px;
+    height: 220px;
+    margin: 20px;
+}
+.photo {
+    background-image: url('../src/map.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+}
+.contact-info {
+    flex-grow: 6;
+    align-items: center;  
+    margin-top: 5px;  
+} 
+.info {  
+    text-align: left;  
+}  
+.contact-info p {
+    color: #858585;
+    padding: 10px 0;
+}
+form {  
+    display: flex;  
+    flex-direction: column;  
+    gap: 10px;  
+}  
+input, textarea {  
+    padding: 10px;  
+    border: 1px solid #ccc;  
+    border-radius: 4px;  
+}  
+button {  
+    padding: 10px;  
+    background-color: #333;  
+    color: white;  
+    border: none;  
+    border-radius: 4px;  
+    cursor: pointer;
+    width: 160px;
+}  
+button:hover {  
+    background-color: #555;  
+}  
+.footer-area {
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.top {
+    margin: 10px 0; 
+    padding: 10px 20px;  
+    font-size: 18px;  
+    border: none;  
+    background-color: #F1F1F1;  
+    color: black;  
+    border-radius: 5px;  
+    cursor: pointer;  
+    transition: background-color 0.3s;  
+}  
+.top:hover {  
+    background-color: #CCCCCC;  
+}
+.icon p {
+    font-size: 1.6rem;
+    cursor: pointer;
+    color: white;
+    padding: 0;
+}
+.text {
+    padding: 0;
+}
+.text p {
+    color: white;
+}
+.text p a {
+    color: white;
+    border-bottom: 0.5px solid white;
+}
