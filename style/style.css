@@ -221,14 +221,14 @@ body {
     padding: 20px 0;  
     color: white;  
 }  
-.text {  
+.text1 {  
     text-align: center;  
 }  
-.text h2 {  
+.text1 h2 {  
     font-size: 36px;  
     margin: 0;  
 }  
-.text p {  
+.text1 p {  
     font-size: 18px;  
     margin: 5px 0 0;  
     color: white;
@@ -412,13 +412,13 @@ button:hover {
     color: white;
     padding: 0;
 }
-.text {
+.text2 {
     padding: 0;
 }
-.text p {
+.text2 p {
     color: white;
 }
-.text p a {
+.text2 p a {
     color: white;
     border-bottom: 0.5px solid white;
 }
