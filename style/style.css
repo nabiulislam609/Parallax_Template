@@ -44,7 +44,7 @@ body {
     position: relative;
 }
 .middle-text h3 {
-    font-size: 3rem;
+    font-size: 2rem;
     color: white;
     background-color: #555;
     position: absolute;
@@ -53,6 +53,8 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
     padding: 10px 20px;
+    font-family: lato, sans-serif;
+    letter-spacing: 10px;
 }
 .about-me {
     margin: 50px 300px;
@@ -173,6 +175,7 @@ body {
 .hero-2 {
     height: 550px;
     width: 100%;
+    position: relative;
 }
 .hero-bg {
     width: 100%;
@@ -186,7 +189,21 @@ body {
     position: sticky;
     position: relative;
 }
-.portfollio .p h2 {
+.portfollio h2 {
+    font-size: 2em;
+    color: white;
+    text-transform: uppercase;
+    background-color: #555;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 10px 20px;
+    font-family: lato, sans-serif;
+    letter-spacing: 10px;
+}
+/* .portfollio .p h2 {
     font-size: 4rem;
     color: white;
     background-color: #555;
@@ -195,7 +212,7 @@ body {
     padding: 20px;
     top: 50%;
     right: 50%;
-}
+} */
 .top-area {  
     display: flex;  
     justify-content: space-around;  
@@ -262,6 +279,22 @@ p {
 .hero-3 {
     height: 550px;
     width: 100%;
+    display: flex;
+    position: relative;
+}
+.contact h2 {
+    font-size: 2rem;
+    color: white;
+    text-transform: uppercase;
+    background-color: #555;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 10px 20px;
+    font-family: lato, sans-serif;
+    letter-spacing: 10px;
 }
 .hero-bg-1 {
     width: 100%;
@@ -275,7 +308,7 @@ p {
     position: sticky;
     position: relative;
 }
-.portfollio .p h2 {
+/* .portfollio .p h2 {
     font-size: 4rem;
     color: white;
     background-color: #555;
@@ -284,7 +317,7 @@ p {
     padding: 20px;
     top: 50%;
     right: 50%;
-}
+} */
 .work {
     flex-grow: 6;
     padding: 20px;
