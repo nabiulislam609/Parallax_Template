@@ -95,6 +95,9 @@ body {
     padding-top: 40px;
     opacity: .50;
 }
+.name img:hover {
+    opacity: 1;
+}
 .text p {
     color: #777777;
     margin: 0;
