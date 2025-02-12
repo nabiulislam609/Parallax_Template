@@ -36,7 +36,8 @@
     }
     .name img {
         padding-bottom: 40px;
-        width: 550px;
+        max-width: 550px;
+        padding: 0 20px;
     }
     .detials {
         display: flex;
