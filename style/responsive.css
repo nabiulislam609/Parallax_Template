@@ -36,6 +36,7 @@
     }
     .name img {
         padding-bottom: 40px;
+        width: 550px;
     }
     .detials {
         display: flex;
