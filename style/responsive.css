@@ -9,23 +9,10 @@
         width: 100%;
     }
     .menu a {
-        padding: 0 20px;
-        color: black;
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     .seacch {
         color: black;
-    }
-    .hero {
-        background-image: url('../src/hero_image.png');
-        height: 100vh;
-        width: 100%;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-        background-attachment: fixed;
-        opacity: .75;
-        position: relative;
     }
     .about-me {
         width: 100%;
